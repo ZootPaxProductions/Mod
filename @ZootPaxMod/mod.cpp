@@ -1,0 +1,17 @@
+dir = "@DZootPaxMod";
+name = "ZootPax";
+picture = "";
+actionName = "action";
+action = "";
+description = " a description";
+hideName = 0;
+hidePicture = 0;
+logo = ";
+logoOver = "";
+tooltip = "Mod";
+tooltipOwned = "Mod Owned!";
+overview = " Mod for ArmA3. ";
+author = "pAxton and Zoot";
+overviewPicture = "";
+overviewText = "OV Tex";
+overviewFootnote = "OV foot note";
