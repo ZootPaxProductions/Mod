@@ -1,0 +1,39 @@
+author= "pAxton & Zo0t";
+onLoadMission = "YourMissionName";
+onLoadIntro = "YourMessage";
+onLoadMissionTime = 1;
+onLoadIntroTime = 1;
+loadScreen =  "";// .paa here
+respawn = "BASE";
+respawnButton = 0;
+respawnDelay = 10;
+respawnDialog = 0;
+respawnOnStart = -1;
+reviveDelay = 6;
+reviveForceRespawnDelay = 3;
+reviveBleedOutDelay = 120;
+disabledAI = 1;
+showHUD = 0;
+scriptedPlayer = 1;
+skipLobby = 1;
+enableDebugConsole = 1;
+corpseManagerMode = 1;
+corpseLimit = 30;
+corpseRemovalMinTime = 600;
+corpseRemovalMaxTime = 1200;
+wreckManagerMode = 0;
+wreckLimit = 100;
+wreckRemovalMinTime = 1200; //seconds
+wreckRemovalMaxTime = 2400; //seconds
+saving = 0;
+disableRandomization[] = {"All", "AllVehicles"};
+
+
+class CfgRemoteExecCommands {};
+
+
+class cfgFunctions
+{
+#include <client\functions\Header.hpp>
+#include <server\functions\Header.hpp>
+};
